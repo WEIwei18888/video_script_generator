@@ -65,7 +65,7 @@ if submit and not style:
 if submit:
     with st.spinner("AI正在思考中，请稍等..."):
         result, wikipedia_info = generate_script(openai_api_key, subject, target_audience, video_type, video_length, creativity, style)
-    st.success("视频脚本已经生成！！！")
+    st.success("视频脚本已经生成pip install --upgrade pip！！！")
 
     st.divider()
 
